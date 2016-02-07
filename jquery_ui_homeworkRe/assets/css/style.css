@@ -1,0 +1,73 @@
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #d3d3d3;
+}
+
+h2 { 
+	padding: .2em; 
+	margin: 0; 
+}
+
+#available-reservations, #selected-reservations { 
+	float:left; 
+	margin-left: auto;
+	width:440px; 
+	height: 290px; 
+	margin-right: auto; 
+	padding: 5px;
+
+}
+
+#available-reservations ul {
+	list-style: none; 
+	padding: 1em 0 1em 3em;
+}
+
+#selected-reservations ol { 
+	margin: 0; 
+	padding: 1em 0 1em 3em; 
+	list-style-type: decimal;  
+}
+
+.clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+
+#form-container {
+	width: 600px;
+	padding: 20px;
+
+}
+
+input {
+	padding: 7px;
+	font-size: 14px !important;
+	width: 200px;
+	border-radius: 5px;
+}
+
+form div > label:first-child {
+	display: inline-block;
+	font-weight: 700;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	text-align: right;
+	width: 110px;
+	margin: 20px 0px 0px 3px; 
+}
+
+#submit-btn {
+	width: auto;
+	display: block;
+	text-align: right;
+	margin: 10px 0px 10px 127px;
+
+}
+
+.required, .error {
+  color: red;
+}
+
+.error {
+	font-size: 14px;
+	margin-left: 10px;
+}
